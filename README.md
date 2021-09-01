@@ -1,29 +1,33 @@
-//Working
-Key
+# Working
+
+# Key
 Enter keyword (preferably without repeated letters): qwerty
 Formatted key: QWERTY
 
 Enter keyword (preferably without repeated letters): hello
 Formatted key: HELO
-*/
 
-/* Grid
+
+# Grid
 Formatted key: QWERTY
+```
 Q   W   E   R   T
 Y   A   B   C   D
 F   G   H   I   K
 L   M   N   O   P
 S   U   V   X   Z
+```
 
 Formatted key: HELO
+```
 H   E   L   O   A
 B   C   D   F   G
 I   K   M   N   P
 Q   R   S   T   U
 V   W   X   Y   Z
-*/
+```
 
-/* Input
+# Input
 Enter string to be encrypted: qwerty
 Formatted string: QWERTY
 
@@ -47,9 +51,9 @@ Formatted string: HAXQXO
 
 Enter string to be encrypted: hello world
 Formatted string: HELXLOWORLDX
-*/
 
-/* Encryption
+
+# Encryption
 Take key input and format it using the above algorithm for keys, removing repeated characters.
 Form a grid using the above algorithm.
 Take input to be encrypted and format it using the above algorithm for strings.
@@ -76,9 +80,9 @@ I   K   M
 Q   R   S
 
 5> join all pairs and return encrypted string
-*/
 
-/* Decryption
+
+# Decryption
 Take key input and format it using the above algorithm for keys, removing repeated characters
 Form a grid using the above algorithm
 Take encrypted input
